@@ -1,4 +1,4 @@
-h1 Sending http requests
+# Sending http requests
 ***
 
 This program sends GET request to URL.
@@ -6,7 +6,7 @@ Processes recieved data.
 Logs the results in file.
 Sends the results in POST request to URL.
 
-h2 Requirements
+## Requirements
 
 OS: Linux
 Pytnon 3 with libraries:
@@ -18,13 +18,13 @@ Pytnon 3 with libraries:
     setuptools
 
 
-h2 Make sdist
+## Make sdist
 
 Downnload files from repository and unzip.
 Run "python3 setup.py sdist" in directory with files 
 
 
-h2 Install
+## Install
 
 Go to /dist in directory with files 
 Extract files from *tar.gz in this directory.
@@ -32,7 +32,7 @@ Go to directory with extracted files.
 Run "python3 setup.py install".
 
 
-h2 Usage
+## Usage
 
 Run "req_get_post.py http:// ... /api".
 Logs will be saved in "/usr/local/bin/requests_log.txt" 
