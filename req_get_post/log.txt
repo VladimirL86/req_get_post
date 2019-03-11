@@ -1,1 +1,0 @@
-Mon Mar 11 21:38:37 2019 : cksum /etc/hosts : b'477196372 211 /etc/hosts\n'
