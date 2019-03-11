@@ -5,8 +5,8 @@ Logs the results in file.
 Sends the results in POST request to URL.
 
 ## Requirements
-OS: Linux
-Pytnon 3 with libraries:
+OS: Linux  
+Pytnon 3 with libraries:  
     sys  
     requests  
     subprocess  
