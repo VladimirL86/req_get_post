@@ -28,7 +28,7 @@
 
 
 ## Usage
-Run `req_get_post.py http:// ... /api`.  
+Run `req_get_post.py https:// ... /api`.  
 
 Log will be saved in `/usr/local/bin/requests_log.txt`  
 Example of log format:  
