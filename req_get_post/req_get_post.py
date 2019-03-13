@@ -21,10 +21,11 @@ else:
 
 
 #logging
-if not os.path.isfile('/usr/local/bin/requests_log.txt'):
-    filehandle = open('/usr/local/bin/requests_log.txt', 'w')
+path_to_logs = '/usr/local/bin/requests_log.txt'
+if not os.path.isfile(path_to_logs):
+    filehandle = open(path_to_logs, 'w')
 else:
-    filehandle = open('/usr/local/bin/requests_log.txt', 'a')
+    filehandle = open(path_to_logs, 'a')
 filehandle.write(time.asctime() + ' : ')
 filehandle.write(command + ' : ' + str(result) + '\n')
 filehandle.close()
@@ -33,5 +34,5 @@ filehandle.close()
 #POST request
 API_ENDPOINT = sys.argv[1] + "/commands"
 DATA = {'command': command, 'result': str(result)}
-requests.post(url = API_ENDPOINT, data = DATA)
-
+r2 = requests.post(url = API_ENDPOINT, data = DATA)
+print(r2.text)
