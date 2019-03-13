@@ -1,8 +1,8 @@
 # Sending http requests
-This program sends GET request to URL.  
-Processes recieved data.  
-Logs the results in file.  
-Sends the results in POST request to URL.
+* This program sends GET request to URL.  
+* Processes recieved data.  
+* Logs the results in file.  
+* Sends the results in POST request to URL.
 
 ## Requirements
 * OS: Linux  
@@ -22,7 +22,7 @@ Sends the results in POST request to URL.
 
 ## Install
 1. Go to /dist in directory with files.   
-1. Extract files from \*.tar.gz in this directory.  
+1. Extract files from `\*.tar.gz` in this directory.  
 1. Go to directory with extracted files.  
 1. Run `python3 setup.py install`.
 
