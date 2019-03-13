@@ -22,7 +22,7 @@
 
 ## Install
 1. Go to /dist in directory with files.   
-1. Extract files from `\*.tar.gz` in this directory.  
+1. Extract files from `*.tar.gz` in this directory.  
 1. Go to directory with extracted files.  
 1. Run `python3 setup.py install`.
 
