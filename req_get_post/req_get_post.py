@@ -34,5 +34,4 @@ filehandle.close()
 #POST request
 API_ENDPOINT = sys.argv[1] + "/commands"
 DATA = {'command': command, 'result': str(result)}
-r2 = requests.post(url = API_ENDPOINT, data = DATA)
-print(r2.text)
+requests.post(url = API_ENDPOINT, data = DATA)
