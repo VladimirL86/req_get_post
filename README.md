@@ -31,5 +31,5 @@ Run `python3 setup.py install`.
 Run `req_get_post.py http:// ... /api`.  
 Logs will be saved in `/usr/local/bin/requests_log.txt`   
 Example of log format:  
-`Sun Mar  3 19:29:31 2019 : whoami : b'root\n'` 
-`Mon Mar  4 10:21:58 2019 : wrong_command : error`
+`Sun Mar  3 19:29:31 2019 : whoami : b'root\n'`  
+`Mon Mar  4 10:21:58 2019 : wrong_command : error`  
