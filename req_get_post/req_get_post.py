@@ -14,12 +14,12 @@ else:
   try:
     r = requests.get(url = URL, params = PARAMS)
   except Exception:
-    print('Error: Wrong URL!')
+    print('Error: Wrong URL! Impossible to connect.')
   else:
     try:
       info = r.json()
     except Exception:
-      print('Error: Wrong URL!')
+      print('Error: Wrong URL! Wrong type of received data')
     else:
       if not URL.count('https'):
         print('Error: Wrong URL! Replace "http" with "https".')
